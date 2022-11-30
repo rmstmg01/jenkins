@@ -99,6 +99,28 @@ To view the password, run the following command:
 $ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 Copy the password and paste it in the text field as shown below and click the “Continue” button.
+![7](https://user-images.githubusercontent.com/11027110/204768281-139cbc04-b44a-49ba-b044-c5d239fd1a6e.jpg)
+
+In the next step, select ‘Install suggested plugin‘ for default installation.
+![8](https://user-images.githubusercontent.com/11027110/204768601-18de1e62-8a79-41af-bf18-980cb0b5c3d4.jpg)
+
+Thereafter, the installation of the necessary plugin required by Jenkins will start.
+![9](https://user-images.githubusercontent.com/11027110/204768866-1db745c9-1ba9-4513-97e5-cc16b08924b3.jpg)
+
+When the installation is complete, the installer will take you to the next section where you need to create an Admin user and click on the ‘Save and Continue’ button.
+![10](https://user-images.githubusercontent.com/11027110/204769223-4bd0c23d-ca0d-4788-a894-25c6a64c672f.jpg)
+
+The next step will populate the default URL for your Jenkins server. Just simply click ‘Save and Finish’.
+![11](https://user-images.githubusercontent.com/11027110/204769560-3cc63d49-9606-42fa-8e26-693bb3f55743.jpg)
+
+Finally, click on the ‘Start using Jenkins’ button to access the jenkins dashboard.
+![12](https://user-images.githubusercontent.com/11027110/204769795-271e1d53-50f6-4293-810e-b910747cc2e6.jpg)
+
+Then you will see Jenkins dashboard as shown below:
+![13](https://user-images.githubusercontent.com/11027110/204770046-1afde179-c855-4a97-b0a1-544c25176157.jpg)
+
+Finally, we have successfully installed jenkins on Ubuntu Server. 
+
 
 
 
