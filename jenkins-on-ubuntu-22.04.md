@@ -78,6 +78,32 @@ $ sudo ufw status
 ```
 ![5](https://user-images.githubusercontent.com/11027110/204744727-4c851ace-92ab-4abe-bee9-c30b9405db52.jpg)
 
+We see that port 8080 is opened in firewall now.
+#### 5. Setup Jenkins
+Now, try to browse jenkins server IP/DNS name with port 8080 as below:
+```
+http://server-IP:8080
+```
+or
+```
+http://jenkins.ramesht.com.np:8080/
+```
+![6](https://user-images.githubusercontent.com/11027110/204765974-40fe2c48-3b9a-46ae-9f5c-5c76901980e5.jpg)
+
+You will get  the page similar as shown above to provide the Administrator’s password. As per the instructions, the password is located in the file:
+```
+/var/lib/jenkins/secrets/initialAdminPassword
+```
+To view the password, run the following command:
+```
+$ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+Copy the password and paste it in the text field as shown below and click the “Continue” button.
+
+
+
+
+
 
 
 
